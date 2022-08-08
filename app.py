@@ -16,10 +16,10 @@ st.set_page_config(
 )
 
 
-pickle_in = open('C:/Users/Acer/Downloads/psych_project/pages/xgboost_model.pkl', 'rb')
+pickle_in = open('xgboost_model.pkl', 'rb')
 predictor_model = pickle.load(pickle_in)
 
-data = pd.read_csv('C:/Users/Acer/Downloads/psych_project/psycho.csv')
+data = pd.read_csv('psycho.csv')
 
 # Function for making and returning the prediction
 # 21 input parameters 
