@@ -35,7 +35,7 @@ def main():
     #st.subheader("Publisher: IGI Global Inc. ")
     #st.subheader("Book Name: Principles and Applications of Socio-Cognitive and Affective Computing")
         
-    displayPDF("pages/research paper.pdf")
+    displayPDF("Covid-19-WFH-Research/pages/research paper.pdf")
     
     st.subheader("Important Note")
     html_note = '''
